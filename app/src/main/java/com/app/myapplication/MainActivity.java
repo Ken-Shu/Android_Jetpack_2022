@@ -48,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
         civ.setImageResource(images[new Random().nextInt(images.length)]);
         vibrator.vibrate(100); // 震動 0.1 秒
 //        vibrator.vibrate(5000); // 震動 5 秒
-//        vibrator.vibrate(new long[]{100,200}, 3); // 停0.1秒後震動0.2秒 循環3次  repeat 若寫 -1 表示無限次
+        //-1 會停 5000毫秒 在震動 2000毫秒 等下次按下才會再循環 表示不重複
+        // 0 自動循環 停5000毫秒 震動 2000毫秒 不停重複
+        // 1 起始停 5000毫秒 之後不停震動
+        // vibrator.vibrate(new long[]{5000,2000}, 0);
     }
 }
