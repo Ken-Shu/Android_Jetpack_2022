@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/edit_height"
+            android:background="@drawable/custom_edittext"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:hint="請輸入身高"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <EditText
+            android:id="@+id/edit_weight"
+            android:background="@drawable/custom_edittext"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:hint="請輸入體重"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button"
+            android:background="@drawable/custom_edittext"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="計算"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/text_result"
+            android:background="@drawable/custom_edittext"
+            android:layout_weight="1"
+            android:hint="計算結果"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textSize="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <include
+            android:id="@+id/list_title"
+            layout="@layout/list_item"/>
+
+        <ListView
+            android:id="@+id/list_view"
+            android:background="@drawable/custom_edittext"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:fastScrollEnabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/list_item"/>
+
+    </LinearLayout>
+</LinearLayout>
