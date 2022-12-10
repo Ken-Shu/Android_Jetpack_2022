@@ -22,6 +22,7 @@
             <option value="$PROJECT_DIR$/app_livedata_fragment" />
             <option value="$PROJECT_DIR$/app_retrofit" />
             <option value="$PROJECT_DIR$/app_room_dice" />
+            <option value="$PROJECT_DIR$/app_room_live_data_viewmodel" />
             <option value="$PROJECT_DIR$/app_saved_instance_state" />
             <option value="$PROJECT_DIR$/app_viewmodel" />
           </set>
