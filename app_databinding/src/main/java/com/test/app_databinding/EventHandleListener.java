@@ -11,6 +11,9 @@ public class EventHandleListener {
         this.context = context;
     }
     public void onButtonClicked(View view){
-        Toast.makeText(context, "Click me! ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Click me1! ", Toast.LENGTH_SHORT).show();
+    }
+    public void onButtonClicked2(View view){
+        Toast.makeText(context, "Click me2! ", Toast.LENGTH_SHORT).show();
     }
 }
