@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/app_firebase_send" />
             <option value="$PROJECT_DIR$/app_layout_login" />
             <option value="$PROJECT_DIR$/app_lifecycle" />
+            <option value="$PROJECT_DIR$/app_livedata" />
             <option value="$PROJECT_DIR$/app_retrofit" />
             <option value="$PROJECT_DIR$/app_room_dice" />
             <option value="$PROJECT_DIR$/app_saved_instance_state" />
