@@ -6,9 +6,9 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 public class BookApiResponse {
-    @Expose
-    @SerializedName(value = "error")
-    private String error;
+    @Expose// 要被序列化(預設 true)
+    @SerializedName(value = "error") // 序列化名稱
+    private String error; // 對應到 Property 名稱
 
     @Expose
     @SerializedName(value = "total")
