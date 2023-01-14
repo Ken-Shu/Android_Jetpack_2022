@@ -22,7 +22,7 @@ public class RetrofitClient {
 
     public static synchronized RetrofitClient getApiClient(){
         if(retrofitClient == null){
-            RetrofitClient retrofitClient = new RetrofitClient();
+            retrofitClient = new RetrofitClient();
         }
         return retrofitClient;
     }
