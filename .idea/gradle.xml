@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/app_livedata" />
             <option value="$PROJECT_DIR$/app_livedata_fragment" />
             <option value="$PROJECT_DIR$/app_mvvm_student" />
+            <option value="$PROJECT_DIR$/app_paging_2" />
             <option value="$PROJECT_DIR$/app_retrofit" />
             <option value="$PROJECT_DIR$/app_room_dice" />
             <option value="$PROJECT_DIR$/app_room_live_data_viewmodel" />
