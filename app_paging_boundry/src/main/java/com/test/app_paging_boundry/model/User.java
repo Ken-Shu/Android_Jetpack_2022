@@ -2,6 +2,7 @@ package com.test.app_paging_boundry.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 import com.google.gson.annotations.SerializedName;
@@ -23,6 +24,7 @@ public class User {
     @ColumnInfo(name = "avatar", typeAffinity = ColumnInfo.TEXT)
     private String avatar;
 
+    @Ignore
     public User(){
 
     }
